@@ -360,3 +360,50 @@
     color: white;
     padding-top: 40px;
 }
+.table{
+    font-family: "dm sans";
+    color: #4b4342;
+    font-size: 18px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+      td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 120px;
+        padding-right: 40px;
+        border-bottom:2px solid   #f3f2f4;
+      }
+}
+.Ingredients{
+    display: flex;
+    align-items: center;
+}
+.Th{
+    color: #919dab;
+    padding: 35px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.tableh1{
+    padding-left: 193px;
+    font-size: 40px;
+    font-family: "dm sans";
+    color: #4b4342;
+    padding-top: 60px;
+}
+.ques{
+    color: #3cc4bf;
+    font-family: "dm sans";
+    padding: 60px;
+    background-color: #f3f2f4;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.H2{
+    color: #4b4342;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.call{
+    padding-bottom: 40px;
+}
