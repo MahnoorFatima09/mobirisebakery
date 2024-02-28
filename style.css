@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "dm sans";
+    src: url("font/DMSans-VariableFont_opsz,wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 120px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+}
+
+.head {
+    padding: 60px;
+    font-size: 20px;
+    font-family: "dm sans";
+}
+.headicon{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #3db9b5;
+    border: 1px solid #3db9b5;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+}
+
+.icon1 {
+    color: #4b4342;
+}
+
+.icon2 {
+    color: #4b4342;
+}
+
+.icon3 {
+    color: #4b4342;
+}
+
+.welcome {
+    background-image: url("/pics/welcome.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.timings {
+    color: white;
+    font-size: 20px;
+    font-family: "dm sans";
+    padding: 90px;
+}
+
+.H1 {
+    font-size: 70px;
+}
+
+.btn2 {
+    border-radius: 30px;
+    background-color: #3db9b5;
+    border: 1px solid #3db9b5;
+    color: white;
+    height: 60px;
+    width: 230px;
+    font-size: 23px;
+    font-family: "dm sans";
+    font-weight: 600;
+}
+
+.btn2div {
+    padding-top: 80px;
+}
+
+.speciality {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    height: 150px;
+    border-radius: 8px;
+}
+
+.div2 {
+    padding-bottom: 30px;
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+    background-image: url("/pics/specialpic.jpg");
+    font-family: "dm sans";
+    color: #4b4342;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.indiv {
+    padding: 50px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Magic {
+    background-image: url("/pics/bgpic3.jpg");
+    height: 650px;
+    background-size: cover;
+    color: white;
+    font-family: "dm sans";
+}
+
+.magicindiv {
+    background-color: #7ed3d0;
+    opacity: 0.9;
+    height: 650px;
+    background-size: cover;
+}
+
+.magicindiv2 {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: 90px;
+    bottom: 90px;
+    margin: 150px;
+    left: 90px;
+    height: 450px;
+    width: 900px;
+    padding-top: 60px;
+}
+
+.cake {
+    font-size: 70px;
+}
+
+.magich1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+.btn3 {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    font-family: "dm sans";
+    font-weight: 600;
+}
+
+.para {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.creationout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images2 {
+    height: 170px;
+    border-radius: 10px;
+}
+
+.creationindiv {
+    padding: 10px;
+}
+
+.creationh1 {
+    font-family: "dm sans";
+    color: #4b4342;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cake2 {
+    color: #ff91a4;
+    font-size: 70px;
+    padding-top: 30px;
+}
+
+.creation {
+    text-align: center;
+    padding: 70px;
+}
+
+.recipe {
+    background-image: url("/pics/recepie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    font-family: "dm sans";
+    font-size: 22px;
+    color: #4b4342;
+    padding: 60px;
+}
+
+.recipeimg {
+    border-radius: 150px;
+    height: 130px;
+}
+
+.recipeindiv {
+    padding-top: 40px;
+}
+
+.recipeindiv2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.clientout {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.clientindiv {
+    display: flex;
+}
+
+.clientimg {
+    height: 65px;
+    border-radius: 50px;
+}
+
+.clienth1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.main {
+    background-image: url("/pics/clientbgpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.main2 {
+    background-size: cover;
+    background-color: #F89DA2;
+    opacity: 0.8;
+    height: 700px;
+    font-family: "dm sans";
+}
+
+.client2 {
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.P {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.p2 {
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.email {
+    border-radius: 30px;
+    width: 300px;
+    height: 54px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.email:hover {}
+
+.btnlast {
+    border-radius: 30px;
+    width: 170px;
+    height: 55px;
+    background-color: #3cc4bf;
+    border: 1px solid #3cc4bf;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.seclast {
+    background-image: url("/pics/bglastpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    text-align: center;
+    padding: 180px;
+}
+
+.seclastindiv {
+    background-size: cover;
+    height: 450px;
+    opacity: 0.7;
+    background-color: black;
+}
+
+.lasticon {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.lasth1 {
+    font-size: 60px;
+    font-family: "dm sans";
+    color: white;
+    word-spacing: 6px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.iconend {
+    font-size: 30px;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.lsh2 {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
